@@ -13,6 +13,7 @@
         "openai-php/client": "^0.8.0",
         "ratchet/pawl": "^0.4.1",
         "react/event-loop": "^1.5"
+        "laravelai/laravel-chatbot": "dev-master":
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
