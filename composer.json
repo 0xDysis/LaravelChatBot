@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "laravel/laravel",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
@@ -69,4 +70,37 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true
+=======
+    "name": "laravelai/laravel-chatbot",
+    "description": "A chatbot package for Laravel applications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "you@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LaravelAI\\LaravelChatbot\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelAI\\LaravelChatbot\\LaravelChatbotServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+        
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+        
+    }
+>>>>>>> 9265674e50a1c6952c27f929196b7f784d810d52
 }
